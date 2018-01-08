@@ -1,14 +1,22 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.14
--- http://www.phpmyadmin.net
+-- version 4.7.7
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 14, 2016 at 11:26 AM
--- Server version: 5.6.26
--- PHP Version: 5.6.12
+-- Generation Time: Jan 08, 2018 at 09:12 AM
+-- Server version: 10.1.29-MariaDB
+-- PHP Version: 7.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `sig`
@@ -20,7 +28,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `rsweb`
 --
 
-CREATE TABLE IF NOT EXISTS `rsweb` (
+CREATE TABLE `rsweb` (
   `id_perusahaan` int(8) NOT NULL,
   `nama_perusahaan` varchar(255) NOT NULL,
   `kategori` varchar(50) NOT NULL,
@@ -31,16 +39,14 @@ CREATE TABLE IF NOT EXISTS `rsweb` (
   `provinsi` varchar(50) NOT NULL,
   `latitude` varchar(50) NOT NULL,
   `longitude` varchar(50) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `rsweb`
 --
 
 INSERT INTO `rsweb` (`id_perusahaan`, `nama_perusahaan`, `kategori`, `website`, `no_hp`, `alamat`, `kota`, `provinsi`, `latitude`, `longitude`) VALUES
-(1, 'Jasa Pembuatan Website dan Adwords Surabaya Wolacom', 'Internet Marketing', 'wolacom.com', '0812-3555-7773', 'Tower B No 1132 Apartemen Puncak Permai Jalan Raya Darmo Permai 3 Sukomanunggal Surabaya Surabaya City East Java 60188', 'Surabaya', 'Jawa Timur', '-7.277882', '112.4114625'),
-(2, 'Jasa Website Bojonegoro - Yusi Ads', 'Web Design', 'yusi.id.tc', '0838-1956-2984', 'Bojonegoro Sub-District Bojonegoro Regency East Java', 'Bojonegoro', 'Jawa Timur', '-7.360798', '111.7330538'),
-(3, 'Jasa Pembuatan Website Situs Toko Online BikinDesainSitus', 'Web Development', 'bikindesainsitus.web.id', '0856-4839-0911', 'Lambang Kuning Kertosono Nganjuk Regency East Java 64315', 'Nganjuk', 'Jawa Timur', '-7.6508023', '112.0022188');
+(1, 'RSUD Arifin Achmad', 'negeri', 'rsudarifinachmad.riau.go.id', '(0761) 21618', 'Jl. Diponegoro No.2, Sumahilang, Sail, Kota Pekanbaru, Riau 28125', 'Pekanbaru', 'Riau', '0.5233658', '101.4525536');
 
 --
 -- Indexes for dumped tables
@@ -60,4 +66,9 @@ ALTER TABLE `rsweb`
 -- AUTO_INCREMENT for table `rsweb`
 --
 ALTER TABLE `rsweb`
-  MODIFY `id_perusahaan` int(8) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+  MODIFY `id_perusahaan` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

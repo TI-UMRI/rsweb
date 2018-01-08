@@ -19,8 +19,8 @@ include_once "header.php";
   function initialize() {
     
     var mapOptions = {   
-        zoom: 8,
-        center: new google.maps.LatLng(-7.9812985, 112.6319264), 
+        zoom: 12,
+        center: new google.maps.LatLng(0.5233658, 101.4525536), 
         disableDefaultUI: true
     };
 

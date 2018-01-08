@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-md-4 col-md-offset-4">
             <img src="img/logo-logo.png" width="72" height="72" />
-            <h4 class="white">Sistem Informasi Geografis Rumah Sakit di Indonesia</h4>
+            <h4 class="white">Sistem Informasi Geografis Rumah Sakit di Pekanbaru</h4>
           <h3 class="white"></h3>
           <ul class="list-inline">
             <li><a href="" class="link-footer"></a></li>
@@ -25,8 +25,8 @@
         <h4 class="modal-title" id="myModalLabel">About</h4>
       </div>
       <div class="modal-body">
-        <h4>SISTEM INFORMASI GEOGRAFIS LOKASI RUMAH SAKIT DI INDONESIA</h4>
-        <p>Tugas Komputasi Awan</p>
+        <h4>SISTEM INFORMASI GEOGRAFIS LOKASI RUMAH SAKIT DI PEKANBARU</h4>
+        <p>Tugas Sistem Informasi Geografis</p>
         <p></p>
       </div>
     </div>

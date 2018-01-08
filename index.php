@@ -9,7 +9,7 @@ include_once "header.php"; ?>
             </div>
             <div class="panel-body">
               <div class="centered">
-                <h4>Selamat Datang di Sistem Informasi Geografis Lokasi Rumah Sakit di Indonesia.</h4>
+                <h4>Selamat Datang di Sistem Informasi Geografis Lokasi Rumah Sakit di Pekanbaru.</h4>
                 <h4>Silakan memilih menu diatas untuk melanjutkan.</h4>
               </div>
             </div>

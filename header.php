@@ -22,7 +22,7 @@
               </div>
               <div class="col-md-11">
                 <h1 class="judul-head">Sistem Informasi Geografis Lokasi Rumah Sakit</h1>
-                <p><i class="fa fa-map-marker fa-fw"></i> Sistem Informasi yang memuat data rumah sakit di Indonesia</p>
+                <p><i class="fa fa-map-marker fa-fw"></i> Sistem Informasi yang memuat data rumah sakit di Pekanbaru</p>
               </div>
             </div>
             <hr class="hr1 margin-b-10" />
