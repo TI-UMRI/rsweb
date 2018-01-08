@@ -1,6 +1,6 @@
 <?php
 include "koneksi.php";
-$Q = mysql_query("SELECT * FROM rsweb")or die(mysql_error());
+$Q = mysql_select_db("SELECT * FROM rsweb")or die(mysql_error());
 if($Q){
  $posts = array();
       if(mysql_num_rows($Q))
